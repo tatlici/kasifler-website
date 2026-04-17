@@ -1,0 +1,74 @@
+{
+  "lang": "en",
+  "siteName": "Kaşifler Diyarı",
+  "tagline": "Adventure-filled Exploration Game",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Kaşifler Diyarı",
+    "subtitle": "An Educational Game That Teaches Children Creativity, Curiosity, and the Spirit of Exploration",
+    "cta": "Discover Now"
+  },
+  "about": {
+    "title": "What is Kaşifler Diyarı?",
+    "description": "Kaşifler Diyarı is an interactive game designed for children ages 4-12 that develops curiosity and exploration skills. Through completing various missions, children develop problem-solving abilities, unleash their creativity, and discover the joy of learning."
+  },
+  "features": {
+    "title": "Game Features",
+    "items": [
+      {
+        "title": "Educational & Fun",
+        "description": "The perfect combination of learning and play"
+      },
+      {
+        "title": "Social Development",
+        "description": "Cooperative game mode to play with friends"
+      },
+      {
+        "title": "Problem Solving",
+        "description": "Various challenges that develop logic and strategic thinking"
+      },
+      {
+        "title": "Creativity",
+        "description": "Opportunities for free expression"
+      },
+      {
+        "title": "Durable Design",
+        "description": "Built to withstand intensive use"
+      },
+      {
+        "title": "Affordable Price",
+        "description": "Accessible to every family's budget"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Have questions about Kaşifler Diyarı? Fill out the form below and we'll get back to you soon.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Your Phone Number",
+      "message": "Your Message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We'll get back to you shortly.",
+      "error": "An error occurred. Please try again later."
+    }
+  },
+  "footer": {
+    "company": "Kaşifler Diyarı",
+    "description": "Games that develop children's imagination and creativity.",
+    "contact": "Contact",
+    "email": "info@kasiflerdiyari.com",
+    "followUs": "Follow Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "allRights": "All Rights Reserved."
+  }
+}

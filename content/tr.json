@@ -1,0 +1,74 @@
+{
+  "lang": "tr",
+  "siteName": "Kaşifler Diyarı",
+  "tagline": "Macera Dolu Keşif Oyunu",
+  "navigation": {
+    "home": "Anasayfa",
+    "about": "Hakkında",
+    "features": "Özellikler",
+    "gallery": "Galeri",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Kaşifler Diyarı",
+    "subtitle": "Çocuklara Yaratıcılık, Merak ve Keşif Ruhunu Öğreten Eğitici Oyun",
+    "cta": "Şimdi Keşfet"
+  },
+  "about": {
+    "title": "Kaşifler Diyarı Nedir?",
+    "description": "Kaşifler Diyarı, 4-12 yaş arası çocuklar için tasarlanan, merak ve keşif duygusunu geliştiren interaktif bir oyundur. Çocuklar, farklı görevleri tamamlayarak problem çözme becerilerini geliştirir, yaratıcılıklarını ortaya çıkarır ve öğrenme zevkini keşfederler."
+  },
+  "features": {
+    "title": "Oyunun Özellikleri",
+    "items": [
+      {
+        "title": "Eğitici ve Eğlenceli",
+        "description": "Öğrenme ile oyunun mükemmel kombinasyonu"
+      },
+      {
+        "title": "Sosyal Gelişim",
+        "description": "Arkadaşlarla oynanabilen kooperatif oyun modu"
+      },
+      {
+        "title": "Problem Çözme",
+        "description": "Mantık ve stratejik düşünmeyi geliştiren çeşitli görevler"
+      },
+      {
+        "title": "Yaratıcılık",
+        "description": "Çocuklara özgür ifade etme fırsat"
+      },
+      {
+        "title": "Dayanıklı Tasarım",
+        "description": "Yoğun kullanıma dayanacak şekilde üretilmiş"
+      },
+      {
+        "title": "Uygun Fiyat",
+        "description": "Her ailenin bütçesine uygun"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "description": "Kaşifler Diyarı hakkında sorularınız mı var? Aşağıdaki formu doldurun ve bize ulaşın.",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta Adresiniz",
+      "phone": "Telefon Numaranız",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi! En kısa zamanda sizinle iletişime geçeceğiz.",
+      "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "footer": {
+    "company": "Kaşifler Diyarı",
+    "description": "Çocukların hayal gücü ve yaratıcılığını geliştiren oyunlar.",
+    "contact": "İletişim",
+    "email": "info@kasiflerdiyari.com",
+    "followUs": "Bizi Takip Edin",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "allRights": "Tüm Hakları Saklıdır."
+  }
+}
