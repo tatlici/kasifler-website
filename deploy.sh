@@ -39,6 +39,14 @@ if ! git pull origin "$BRANCH"; then
   fail "git pull failed. Resolve conflicts or local changes, then retry."
 fi
 
+log "Step 3.1: Pull Git LFS assets (if configured)"
+if git lfs version > /dev/null 2>&1; then
+  git lfs pull
+  log "Git LFS assets pulled"
+else
+  log "git-lfs not installed; skipping LFS pull"
+fi
+
 log "Step 4: Install dependencies"
 rm -rf .next
 if [ -f package-lock.json ]; then
@@ -49,6 +57,11 @@ fi
 
 log "Step 5: Build application"
 npm run build
+
+if [ -d "public/assets/gallery" ]; then
+  GALLERY_COUNT=$(find public/assets/gallery -maxdepth 1 -type f | wc -l | tr -d ' ')
+  log "Gallery file count: $GALLERY_COUNT"
+fi
 
 log "Step 6: Restore uploaded images"
 mkdir -p "$UPLOAD_DIR"
