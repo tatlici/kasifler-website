@@ -57,11 +57,48 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">{content.footer.followUs}</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
-                Facebook
+              <a
+                href="https://www.instagram.com/kasifler.diyari/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-primary transition-colors"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  className="w-6 h-6"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                </svg>
+                <span className="sr-only">Instagram</span>
               </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
-                Instagram
+              <a
+                href="https://www.shopier.com/kasiflerdiyari"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-primary transition-colors"
+                aria-label="Shopier"
+                title="Shopier"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  className="w-6 h-6"
+                >
+                  <path d="M6 8h12l-1.2 11H7.2L6 8Z" />
+                  <path d="M9 8a3 3 0 0 1 6 0" />
+                </svg>
+                <span className="sr-only">Shopier</span>
               </a>
             </div>
           </div>

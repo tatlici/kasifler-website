@@ -17,7 +17,6 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>('tr')
-  const [mounted, setMounted] = useState(false)
 
   // Hydration: load saved language preference from localStorage
   useEffect(() => {
@@ -25,7 +24,6 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     if (saved && (saved === 'tr' || saved === 'en')) {
       setLanguageState(saved)
     }
-    setMounted(true)
   }, [])
 
   const setLanguage = (lang: Language) => {

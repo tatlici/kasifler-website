@@ -30,13 +30,22 @@ export default function Hero() {
         <p className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-10 opacity-95 animate-slideUp" style={{ animationDelay: '0.2s' }}>
           {content.hero.subtitle}
         </p>
-        <a
-          href="#about"
-          className="inline-block bg-primary hover:bg-orange-600 text-white font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-lg transition-all duration-300 transform hover:scale-105 animate-slideUp"
-          style={{ animationDelay: '0.4s' }}
-        >
-          {content.hero.cta}
-        </a>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slideUp" style={{ animationDelay: '0.4s' }}>
+          <a
+            href="#about"
+            className="inline-block bg-primary hover:bg-orange-600 text-white font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-lg transition-all duration-300 transform hover:scale-105"
+          >
+            {content.hero.cta}
+          </a>
+          <a
+            href="https://www.shopier.com/kasiflerdiyari"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white/15 hover:bg-white/25 border border-white/70 text-white font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-lg transition-all duration-300 transform hover:scale-105"
+          >
+            {content.hero.buyNow}
+          </a>
+        </div>
       </div>
     </section>
   )

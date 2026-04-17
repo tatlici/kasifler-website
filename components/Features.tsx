@@ -6,7 +6,6 @@ import { useLanguage } from '@/context/LanguageContext'
 interface Feature {
   title: string
   description: string
-  icon: string
 }
 
 const FeatureIcon = ({ icon }: { icon: string }) => {

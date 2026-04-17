@@ -3,10 +3,8 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { useInView } from 'react-intersection-observer'
-import { useLanguage } from '@/context/LanguageContext'
 
 export default function Gallery() {
-  const { content } = useLanguage()
   const [images, setImages] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 })
