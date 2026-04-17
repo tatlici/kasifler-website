@@ -44,8 +44,23 @@ if git lfs version > /dev/null 2>&1; then
   git lfs pull
   log "Git LFS assets pulled"
 else
-  log "git-lfs not installed; skipping LFS pull"
+  fail "git-lfs is required but not installed. Install git-lfs and retry."
 fi
+
+VIDEO_FILE="public/assets/hero/video.mp4"
+if [ ! -f "$VIDEO_FILE" ]; then
+  fail "Hero video not found at $VIDEO_FILE"
+fi
+
+if head -n 1 "$VIDEO_FILE" | grep -q "https://git-lfs.github.com/spec/v1"; then
+  fail "Hero video is still an LFS pointer. Run git lfs pull and retry deployment."
+fi
+
+VIDEO_SIZE=$(wc -c < "$VIDEO_FILE" | tr -d ' ')
+if [ "$VIDEO_SIZE" -lt 1000000 ]; then
+  fail "Hero video looks too small ($VIDEO_SIZE bytes). LFS content may be missing."
+fi
+log "Hero video size: $VIDEO_SIZE bytes"
 
 log "Step 4: Install dependencies"
 rm -rf .next
